@@ -1,27 +1,27 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="ISO-8859-1">
-    <title>Áëî÷íàÿ â¸ðñòêà</title>
+    <title>Ð‘Ð»Ð¾Ñ‡Ð½Ð°Ñ Ð²Ñ‘Ñ€ÑÑ‚ÐºÐ°</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 <div id="container">
 	<div id="header">
-	<h2>header (øàïêà ñàéòà)</h2>
+	<h2>header (ÑˆÐ°Ð¿ÐºÐ° ÑÐ°Ð¹Ñ‚Ð°)</h2>
 	</div>
 		 
 	<div id="navigation">
-	<h2>Áëîê íàâèãàöèè</h2>
+	<h2>Ð‘Ð»Ð¾Ðº Ð½Ð°Ð²Ð¸Ð³Ð°Ñ†Ð¸Ð¸</h2>
 	</div>
 		 
 	<div id="sidebar">
-	<h2>Ëåâàÿ ïàíåëü</h2>
+	<h2>Ð›ÐµÐ²Ð°Ñ Ð¿Ð°Ð½ÐµÐ»ÑŒ</h2>
 	</div>
 		 
 	<div id="content">
-	<h2>Îñíîâíîé êîíòåíò ñòðàíèöû</h2>
+	<h2>ÐžÑÐ½Ð¾Ð²Ð½Ð¾Ð¹ ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹</h2>
 	</div>
 		 
 	<div id="clear">
@@ -29,7 +29,7 @@
 	</div>
 							   
 	<div id="footer">
-	<h2>footer (íèç ñàéòà)</h2>
+	<h2>footer (Ð½Ð¸Ð· ÑÐ°Ð¹Ñ‚Ð°)</h2>
 	</div>
 </div>
 </body>
