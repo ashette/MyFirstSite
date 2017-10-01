@@ -1,27 +1,36 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="ISO-8859-1">
-    <title>Блочная вёрстка</title>
+    <meta charset="UTF-8"> 
+     <title>сайт</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 <div id="container">
 	<div id="header">
-	<h2>header (шапка сайта)</h2>
-	</div>
-		 
+	<h2>ANASTASIA SHULGA</h2>    
+        <div id="a">
+        <a> MAKE-UP ARTIST</a>
+        </div>
+	</div>       
+    
 	<div id="navigation">
-	<h2>Блок навигации</h2>
+	<table id="menu">
+		<tr>
+			<td><a href="#"  title="">Главная</a></td>
+			<td><a href="#"  title="">Портфолио</a></td>
+			<td><a href="#"  title="">Обо мне</a></td>
+			<td><a href="#"  title="">Записаться</a></td>
+			<td><a href="#"  title="">Контакты</a></td>
+		</tr>
+		</table>
 	</div>
 		 
-	<div id="sidebar">
-	<h2>Левая панель</h2>
-	</div>
+
 		 
 	<div id="content">
-	<h2>Основной контент страницы</h2>
+	<h2>контент</h2>
 	</div>
 		 
 	<div id="clear">
@@ -29,7 +38,7 @@
 	</div>
 							   
 	<div id="footer">
-	<h2>footer (низ сайта)</h2>
+	<h2>footer </h2>
 	</div>
 </div>
 </body>
