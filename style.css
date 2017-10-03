@@ -1,5 +1,6 @@
 body {
     background: #000;
+
     color: #000;
     font-family: DINPro Light, sans-serif;
     font-size: 14px;
@@ -87,15 +88,15 @@ crop {
 #footer {
     background: #515050;    
     width: 100%;
-    height:100px;
+    height:60px;
     margin-top: 2%;
+    position:relative;
+
 }
 #rights{
     
-    padding-top: 70px;
-    
-    
-    
+    padding-top: 30px;
+    text-align: center;    
 }
 #clear {
     clear: both;
@@ -105,5 +106,43 @@ crop {
 
     color: #c59581;    
     font-size: 25px;
+
+}
+.slider-box{
+  position:relative;
+  width:100%;
+  height:675px;
+  overflow:hidden;
+}
+.slider{
+  position:relative;
+  width:10000px;
+  height:675px;
+}
+.slider img{
+  float:left;
+}
+.slider-box .prev, .slider-box .next{
+  position:absolute;
+  top:337px;
+  display:block;
+  width:29px;
+  height:29px;
+  cursor:pointer;
+}
+.slider-box .prev{
+      position:absolute;
+  left:100px;
+  background-image: url(../images/left.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.slider-box .next{
+      position:absolute;
+  right:100px;
+   background-image:url(../images/right.png);
+   background-repeat: no-repeat;
+  background-size: cover;
 
 }

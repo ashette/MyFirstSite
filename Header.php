@@ -1,5 +1,5 @@
 
-
+<script src="js.js" type=""></script>
 <div id="header">
     <div id="logo">
         <h2><a href="index.php">ANASTASIA SHULGA</a></h2>    

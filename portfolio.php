@@ -4,7 +4,7 @@
         <meta charset="UTF-8"> 
         <title>сайт</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-
+  <?php include 'animation.php'?>
     </head>
     <body>
         <div id="container">
@@ -13,8 +13,7 @@
             <div id="content">   
                 <div id="pagehead" >
                     
-                   <a>ПОРТФОЛИО</a>
-                  
+                   <a>ПОРТФОЛИО</a>                  
 
                 </div>
 
