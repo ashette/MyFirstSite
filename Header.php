@@ -10,13 +10,13 @@
 </div>       
 
 <div id="navigation">
-    <table id="menu">
-        <tr>
-            <td><a href="index.php"  title="">Главная</a></td>
-            <td><a href="portfolio.php"  title="">Портфолио</a></td>
-            <td><a href="about.php"  title="">Обо мне</a></td>
-            <td><a href="book.php"  title="">Записаться</a></td>
-            <td><a href="contacts.php"  title="">Контакты</a></td>
-        </tr>
-    </table>
+    <div id="menu">
+        
+            <a href="index.php"  title="">Главная</a>
+            <a href="portfolio.php"  title="">Портфолио</a>
+            <a href="about.php"  title="">Обо мне</a>
+            <a href="book.php"  title="">Записаться</a>
+            <a href="contacts.php"  title="">Контакты</a>
+        
+    </div>
 </div>
