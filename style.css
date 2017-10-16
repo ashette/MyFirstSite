@@ -8,7 +8,14 @@ body {
     margin: 0;
     max-width: 100%; 
     min-width: 1000px;
-        /* padding-85ght: 310px;*/
+    /* padding-85ght: 310px;*/
+}
+
+@font-face{
+
+    font-family: DINPro Light;
+    src:url(10422.otf);
+
 }
 
 #header h2 {
@@ -17,8 +24,8 @@ body {
     width: 100%;
     height: 10%;
     margin-bottom: 0;
-    font-size: 30px;
-    letter-spacing: 1pt;
+    font-size: 32px;
+    letter-spacing: 4pt;
 
 }
 #logo a {
@@ -28,11 +35,12 @@ body {
 
 }
 #a {
+
     color: #948f8f;
     width: 100%;
     margin-top: 0;
     margin-bottom: 1%;
-    letter-spacing: 2pt;
+    letter-spacing: 7pt;
     font-size: 15px;
 }
 
@@ -45,50 +53,58 @@ body {
 }
 
 #navigation {
-    background: #515050;
+    background: #292929;
     font-family: DINPro Light, sans-serif;
     width: 100%;
     height: 25px;
-    margin-bottom: 2%;
+    margin-bottom: 0.5%;
 
 
 
 }
 #menu {
-    
+    padding-top: 0.2%;
     width: 100%;
-        
 
-    
+
+
 }
 #menu a {
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;
     text-indent: 5px;
-   
-    /*padding-left: 5%;*/
-    /*padding-right: 5%;*/
+
     text-decoration: none;
     color: #a8a8a8;
     font-size: 14px;
-    
-    
-    
+
+
+
 
 }
 
 #menu a:hover {
     color: #FFF;
 
-}
 
+}
+h3{
+font-family: DINPro Light;
+    color: #a8a8a8;
+    opacity: 0.6;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    padding-left: 30%;
+   
+
+}
 
 #content {
     background: #000;
     float: right;
     width: 100%;
-    height: 800px;
     margin-right: 0;
     margin-bottom: 0;
     margin-top: 0;
@@ -102,13 +118,19 @@ crop {
 #footer {
     background: #515050;    
     width: 100%;
-    height:60px;
-    margin-top: 2%;
+    height:100px;
+    margin-top: 0.5%;
     position:relative;
 
 }
-#rights{
+
+#evening a:hover{
     
+   opacity: 0.5 ;
+    
+}
+#rights{
+
     padding-top: 30px;
     text-align: center;    
 }
@@ -117,46 +139,46 @@ crop {
 }
 
 #pagehead  {  
-
+    margin-top: 1%;
     color: #c59581;    
     font-size: 25px;
 
 }
 .slider-box{
-  position:relative;
-  width:100%;
-  height:675px;
-  overflow:hidden;
+    position:relative;
+    width:100%;
+    height:675px;
+    overflow:hidden;
 }
 .slider{
-  position:relative;
-  width:10000px;
-  height:675px;
+    position:relative;
+    width:10000px;
+    height:675px;
 }
 .slider img{
-  float:left;
+    float:left;
 }
 .slider-box .prev, .slider-box .next{
-  position:absolute;
-  top:337px;
-  display:block;
-  width:29px;
-  height:29px;
-  cursor:pointer;
+    position:absolute;
+    top:337px;
+    display:block;
+    width:29px;
+    height:29px;
+    cursor:pointer;
 }
 .slider-box .prev{
-      position:absolute;
-  left:100px;
-  background-image: url(../images/left.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+    position:absolute;
+    left:100px;
+    background-image: url(../images/left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .slider-box .next{
-      position:absolute;
-  right:100px;
-   background-image:url(../images/right.png);
-   background-repeat: no-repeat;
-  background-size: cover;
+    position:absolute;
+    right:100px;
+    background-image:url(../images/right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }

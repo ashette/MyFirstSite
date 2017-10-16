@@ -2,7 +2,7 @@ $(function () {
     var slider = $('.slider'),
             sliderContent = slider.html(), // Содержимое слайдера
             slideWidth = $('.slider-box').outerWidth(), // Ширина слайдера
-            slideCount = $('.slider img').length, // Количество слайдов
+            slideCount = 4, // Количество слайдов
             prev = $('.slider-box .prev'), // Кнопка "назад"
             next = $('.slider-box .next'), // Кнопка "вперед"
             sliderInterval = 3200, // Интервал смены слайдов
