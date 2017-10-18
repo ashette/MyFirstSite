@@ -1,22 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <script>
-            function AjaxFormRequest(result_id, formMain, url) {
-                jQuery.ajax({
-                    url: url,
-                    type: "POST",
-                    dataType: "html",
-                    data: jQuery("#" + formMain).serialize(),
-                    success: function (response) {
-                        document.getElementById(result_id).innerHTML = response;
-                    },
-                    error: function (response) {
-                        document.getElementById(result_id).innerHTML = "Возникла ошибка при отправке формы. Попробуйте еще раз";
-                    }
-                });
-            }
-        </script>
+    <head>       
         <meta charset="UTF-8"> 
         <title>сайт</title>
         <link rel="stylesheet" type="text/css" href="style.css">

@@ -90,17 +90,22 @@ body {
 
 }
 h3{
-font-family: DINPro Light;
+    font-family: DINPro Light;
     color: #a8a8a8;
     opacity: 0.6;
     text-align: center;
     width: 40%;
     height: 10%;
     padding-left: 30%;
-   
+
 
 }
+h4{
 
+    margin-bottom: 0;
+
+
+}
 #content {
     background: #000;
     float: right;
@@ -125,9 +130,9 @@ crop {
 }
 
 #evening a:hover{
-    
-   opacity: 0.5 ;
-    
+
+    opacity: 0.5 ;
+
 }
 #rights{
 
@@ -183,100 +188,109 @@ crop {
 
 }
 .black-overlay{
-	display: none;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	z-index:1001;
-	-moz-opacity: 0.7;
-	opacity:.70;
-	filter: alpha(opacity=70);
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.7;
+    opacity:.70;
+    filter: alpha(opacity=70);
 }
 /* устанавливаем рисунок основы,
   ** опрделяем размеры и положение на экране  */
 .envelope {
-	display: none;
-	position: absolute;
-	width: 30%;
-	height: 500px;
-	background: #292929 center no-repeat;
-        
-	z-index:1002;
-	position: relative;
-        transform: translate(-50%,-50%);
-        margin-left: 50%;
+    display: none;
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    background: #292929 center no-repeat;
+
+    z-index:1002;
+    position: relative;
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
 
 }
 /* формируем кнопку закрытия,
   ** размеры, положение на форме  */
 .close-btn {
-	width: 31px;
-	height: 31px;
-	display: block;
-	cursor: pointer;/* для случая применения отличных от <a> тегов */
-	background:#000000 ;
-        color: #fff;
-        text-decoration: none;
-        font-size: 30px;
-	
+    width: 31px;
+    height: 31px;
+    display: block;
+    cursor: pointer;/* для случая применения отличных от <a> тегов */
+    background-image: url(../images/cross.png);
+
+    background-size: contain;
+    
+    border-radius: 70%;
+  
+    margin-left: 425px;
+    margin-right: 0;
+
 }
 /* кнопка закрытия при наведении */
 .close-btn:hover{
-	background: #515050;
- 
+    opacity: 0.5;
+    
+
 }
 /* оформляем заголовок формы */
 .title {
-	font-family: DINPro Light;
-	font-size:14px;
-	font-weight: normal;	
-	text-align:center;
-	position: absolute;	
-	color: #fff;
-	height: 40px;
-	width: 450px;
-	margin: 15px 0;
-	
+    font-family: DINPro Light;
+    font-size:14px;
+    font-weight: normal;	
+    text-align:center;
+    position: absolute;	
+    color: #fff;
+    height: 40px;
+    width: 450px;
+    margin: 15px 0;
+
 }
 form{
-     margin-top: 50px;
-     color: #fff;
-    
-    
+    margin-top: 50px;
+    color: #fff;
+
+
 }
 .your-name {
-	position: absolute;
-        top :100px;
-        left: 150px;
-	
+    position: absolute;
+    top :100px;
+    left: 150px;
+    opacity: 0.5;
+
 }
- 
+
 .email-address {
-	position: absolute;
-	top: 150px;
-        left :150px;
-        opacity: 0.5;
-	
+    position: absolute;
+    top: 155px;
+    left :150px;
+    opacity: 0.5;
+
+
 }
 .phone {
-	position: absolute;
-	top: 200px;
-        left :150px;
-	
+    position: absolute;
+    top: 210px;
+    left :150px;
+    opacity: 0.5;
+
 }
 .your-message{
-    
+
     position: absolute;
     top: 250px;
-       left: 50px;
+    left: 50px;
     width: 75%;
-    height: 25%
+    height: 25%;
+    opacity: 0.5;
 }
 .send-message{
-     position: absolute;
+    position: absolute;
     left :190px;
     top: 400px;
     background-color: #515050;
@@ -286,6 +300,13 @@ form{
     cursor: pointer;
     height: 50px;
     width: 100px;
-    
+
+}
+.ok{
+    border: 1px solid green;
+}
+.error{
+    border: 1px solid red;
+    background-color: red;
 }
 

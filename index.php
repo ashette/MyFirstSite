@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8"> 
         <title>сайт</title>
-        <link rel="stylesheet" type="text/css" href="style.css">    
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="validation.js"></script>
         <?php include 'animation.php' ?>
     </head>
     <body>
