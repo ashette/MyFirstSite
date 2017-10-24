@@ -25,8 +25,13 @@
 
                     <h3>
                         <?php
-                        $str = htmlentities(file_get_contents("info.php"));
-                        echo $str;
+                        $fd = fopen("info.txt", 'r') or die("не удалось открыть файл");
+                        while (!feof($fd)) {
+                            $str = htmlentities(fgets($fd));
+                            echo $str;
+                        }
+                        fclose($fd);
+                       
                         ?>
                     </h3>
 
