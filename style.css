@@ -8,6 +8,7 @@ body {
     margin: 0;
     max-width: 100%; 
     min-width: 1000px;
+    
     /* padding-85ght: 310px;*/
 }
 
@@ -103,6 +104,7 @@ h3{
 h4{
 
     margin-bottom: 0;
+     font-weight: normal;
 
 
 }
@@ -187,7 +189,7 @@ crop {
     background-size: cover;
 
 }
-.black-overlay{
+/*.black-overlay{
     display: none;
     position: absolute;
     top: 0%;
@@ -199,10 +201,10 @@ crop {
     -moz-opacity: 0.7;
     opacity:.70;
     filter: alpha(opacity=70);
-}
+}*/
 /* устанавливаем рисунок основы,
   ** опрделяем размеры и положение на экране  */
-.envelope {
+/*.evening {
     display: none;
     position: absolute;
     width: 30%;
@@ -214,51 +216,36 @@ crop {
     transform: translate(-50%,-50%);
     margin-left: 50%;
 
-}
+}*/
 /* формируем кнопку закрытия,
   ** размеры, положение на форме  */
-.close-btn {
-    width: 31px;
-    height: 31px;
-    display: block;
-    cursor: pointer;/* для случая применения отличных от <a> тегов */
-    background-image: url(../images/cross.png);
 
-    background-size: contain;
-    
-    border-radius: 70%;
-  
-    margin-left: 425px;
-    margin-right: 0;
-
-}
 /* кнопка закрытия при наведении */
-.close-btn:hover{
-    opacity: 0.5;
-    
 
-}
 /* оформляем заголовок формы */
-.title {
+/*.title {
     font-family: DINPro Light;
     font-size:14px;
     font-weight: normal;	
-    text-align:center;
-    position: absolute;	
+    text-align:center;	
     color: #fff;
     height: 40px;
-    width: 450px;
-    margin: 15px 0;
 
-}
+}*/
 form{
-    margin-top: 50px;
     color: #fff;
-
+    width: 30%;
+    background: #292929 center no-repeat;
+    position: relative;
+    transform: translate(-50%);
+    margin-left: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     min-width: 400px;
 
 }
 .your-name {
-    position: absolute;
+
     top :100px;
     left: 150px;
     opacity: 0.5;
@@ -266,47 +253,47 @@ form{
 }
 
 .email-address {
-    position: absolute;
+
     top: 155px;
     left :150px;
     opacity: 0.5;
 
 
 }
-.phone {
-    position: absolute;
-    top: 210px;
-    left :150px;
-    opacity: 0.5;
 
-}
 .your-message{
 
-    position: absolute;
+
     top: 250px;
     left: 50px;
-    width: 75%;
-    height: 25%;
+   
+    min-height: 150px;
+    max-width: 347px;
+    min-width: 347px;
     opacity: 0.5;
 }
 .send-message{
-    position: absolute;
+
     left :190px;
     top: 400px;
     background-color: #515050;
     color: #fff;
     font-family: DINPo Light;
+    font-style: normal;
     border: none;
     cursor: pointer;
     height: 50px;
     width: 100px;
 
 }
+
 .ok{
     border: 1px solid green;
+    background-color: green;
 }
 .error{
     border: 1px solid red;
     background-color: red;
+    opacity: 0.5;
 }
 

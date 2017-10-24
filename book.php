@@ -13,16 +13,15 @@
             <div id="content">   
                 <div id="pagehead" >
 
-                    <a>ЗАПИСАТЬСЯ</a>   
+                    <a>ОФОРМИТЬ ЗАПИСЬ</a>   
 
-                </div>
-                <div id ="evening">
+                </div>       
+                
 
-                    <a class="show-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display = 'block';
-                            document.getElementById('fade').style.display = 'block'"><img style="width: 15%; height: 15%"  src="images/evening.jpg"  ></a>
-                        <?php include 'Form.php' ?>
+                    <?php include 'Form.php'?>;
+                       
 
-                </div>
+                
                 <div id="clear">
 
                 </div>
