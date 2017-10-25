@@ -161,9 +161,12 @@ crop {
     position:relative;
     width:10000px;
     height:675px;
+    margin-left: 10%;
 }
 .slider img{
-    float:left;
+    /*float:  ;*/
+    display: inline-block;
+    background-size: cover;
 }
 .slider-box .prev, .slider-box .next{
     position:absolute;
