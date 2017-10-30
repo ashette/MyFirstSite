@@ -1,4 +1,4 @@
-<
+
 <form id = "form" method = "post" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>">
     <h4>Ваше имя</h4>
 
