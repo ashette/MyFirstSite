@@ -2,6 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="media_style.css">  
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="pikachoose-min.js"></script>
+        <script src="animation.js"></script>
+        <script>
+
+            $(document).ready(
+                    function () {
+                        $("#pikame").PikaChoose();
+                    });
+
+        </script>
         <?php
         require_once './config.php';
 
@@ -18,13 +32,9 @@
 
         $dir = 'localhost/Gallery/';
         $images = get_images_db();
-        var_dump($images);
         ?>
         <title>сайт</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="lightbox.css">
 
-        <?php include 'animation.php' ?>
     </head>
     <body>
         <div id="container">
@@ -37,33 +47,24 @@
 
                 </div>
                 <div class="wrapper">
-
                     <div class="gallery">
-                        <?php for ($j = 1; $j < 4; $j++):
-                            echo '<img style=" width: 40%; height: 40%" class="front" src="Gallery/' . $images[$j]['img'] .'" alt="">';
-                              
-                        endfor;
-                        ?>
-                            
-                            <div class="item">
-                                <div>
-
-                                        <span class="back">Фото <?= $j ?></span>
-                                    </a>
-                                </div>
-                            </div>
-                        
-                         
+                        <ul id = "pikame">
+                            <?php
+                            for ($j = 1; $j < count($images); $j++):
+                                echo '<li><img src="Gallery/' . $images[$j]['img'] . '" > <span>'. $images[$j]['comment'] .' </span> </li>';
+                            endfor;
+                            ?>
+                        </ul>
                     </div>
 
                 </div>
-
-
                 <div id="clear">
 
                 </div>
+
                 <?php include 'Footer.php' ?>
 
             </div>
+
     </body>
 </html>

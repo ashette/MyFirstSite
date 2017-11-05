@@ -2,9 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <script src="http://code.jquery.com/jquery.min.js"></script>
         <title>сайт</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <?php include 'animation.php' ?>
+        <link rel="stylesheet" type="text/css" href="media_style.css"> 
+        <script src="animation.js"></script>
     </head>
     <body>
         <div id="container">
@@ -15,7 +18,7 @@
 
                 <div class="about">
 
-                    <img style=" width: 40%; height: 40%" src="images/about.jpg" alt="">
+                    <img   src="images/about.jpg" alt="">
 
                     <div id="pagehead" >
 
@@ -31,7 +34,6 @@
                             echo $str;
                         }
                         fclose($fd);
-                       
                         ?>
                     </h3>
 
