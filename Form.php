@@ -1,4 +1,3 @@
-
 <form id = "form" method = "post" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>">
     <h4>Ваше имя</h4>
 
@@ -14,11 +13,9 @@
             <br>
             <br><input type = "submit" name = "send" id = "send"  value = "Отправить" disabled="true" class = "send-message">
             <script>
-                <?php include 'validation.js'?>
+                <?php include 'js/validation.js'?>
 
             </script>   
-            <?php include 'send.php' ?>
+            <?php include 'controller/send.php' ?>
 
             </form>
-
-

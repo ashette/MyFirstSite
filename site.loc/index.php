@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!--﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8"> 
@@ -8,14 +8,17 @@
         <link rel="stylesheet" type="text/css" href="css/media_style.css">  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/validation.js"></script>
-            <script src="js/animation.js"></script>
-    </head>
+        <script src="js/animation.js"></script>-->
+        <?php
+        ini_set('display_errors', 1);
+        require_once 'application/bootstrap.php';
+        ?>
+<!--    </head>
     <body>
         <div id="container">
-            <?php include 'Header.php' ?>
+
             <div id="content">            
                 <script>
-                    <?php include 'js/slider.js' ?>
                 </script> 
                 <div id="block-for-slider">
                     <div id="viewport">
@@ -44,9 +47,9 @@
         <div id="clear">
 
         </div>
-        <?php include 'Footer.php' ?>
+  
 
     </div>
 
 </body>
-</html>
+</html>-->
